@@ -5,6 +5,7 @@ go 1.19
 require (
 	github.com/gogf/gf/v2 v2.5.5
 	github.com/lionsoul2014/ip2region/binding/golang v0.0.0-20231013030745-3066d243cd04
+	github.com/unconstrainedterminator/os v0.0.0-20231028073542-4a9eba3c8957
 )
 
 require (
