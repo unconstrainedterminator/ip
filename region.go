@@ -4,8 +4,6 @@ import (
 	"context"
 	"github.com/gogf/gf/v2/os/glog"
 	"github.com/lionsoul2014/ip2region/binding/golang/xdb"
-	"github.com/unconstrainedterminator/os"
-	"path/filepath"
 	"strings"
 )
 
@@ -15,7 +13,7 @@ type Address struct {
 }
 
 var (
-	dbpath   = filepath.Join(os.GetCurrentPath(), "region.xdb")
+	dbpath   = "region.xdb"
 	Searcher *xdb.Searcher
 )
 
